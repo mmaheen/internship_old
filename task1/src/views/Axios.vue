@@ -13,7 +13,7 @@ export default {
     },
     mounted() {
         this.axios.get('https://jsonplaceholder.typicode.com/posts').then(res => {
-            console.log(res);
+            console.log();
         })
     }
 }
